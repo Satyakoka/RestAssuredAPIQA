@@ -5,11 +5,11 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.parsing.Parser;
-//import static io.restassured.RestAssured.*;//now we can directly use the methods than creating an object
+
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
-//we need to do the static imports of restassured library
+
 
 import java.util.List;
 import java.util.Map;
@@ -31,7 +31,7 @@ public static Response doGetRequest(String endpoint) {
             then().contentType(ContentType.JSON).extract().response();
 }
 
-//Post Method Request 
+//Delete Method Request 
 
 public static Response doDeleteRequest(String endpoint) {
     RestAssured.defaultParser = Parser.JSON;
