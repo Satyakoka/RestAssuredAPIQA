@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7579" started-at="2021-05-09T21:54:55 CDT" finished-at="2021-05-09T21:55:02 CDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7579" started-at="2021-05-09T21:54:55 CDT" finished-at="2021-05-09T21:55:02 CDT">
+      <class name="RestAssuredDemo.RestAssuredProject.RestAssuredAPITest">
+        <test-method status="PASS" signature="Test_01()[pri:1, instance:RestAssuredDemo.RestAssuredProject.RestAssuredAPITest@26aa12dd]" name="Test_01" duration-ms="4648" started-at="2021-05-09T21:54:55 CDT" finished-at="2021-05-09T21:54:59 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01 -->
+        <test-method status="PASS" signature="Test_02()[pri:2, instance:RestAssuredDemo.RestAssuredProject.RestAssuredAPITest@26aa12dd]" name="Test_02" duration-ms="1372" started-at="2021-05-09T21:54:59 CDT" finished-at="2021-05-09T21:55:01 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_02 -->
+        <test-method status="PASS" signature="Test_03()[pri:3, instance:RestAssuredDemo.RestAssuredProject.RestAssuredAPITest@26aa12dd]" name="Test_03" duration-ms="1522" started-at="2021-05-09T21:55:01 CDT" finished-at="2021-05-09T21:55:02 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_03 -->
+      </class> <!-- RestAssuredDemo.RestAssuredProject.RestAssuredAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
